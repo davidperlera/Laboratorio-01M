@@ -7,30 +7,32 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/welcome_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/welcome_message_text"
         android:layout_margin="@dimen/medium_gap"
-        android:textSize="@dimen/text_size_big_gap"
-        android:textAlignment="center"
-        android:gravity="center"
         android:fontFamily="@string/font_style_text_serif_monospace"
-
-        />
+        android:gravity="center"
+        android:text="@string/welcome_message_text"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size_big_gap"
+        android:typeface="monospace" />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="460dp"
-        android:src="@drawable/android_toy"
-        android:layout_marginHorizontal="@dimen/medium_gap"/>
+        android:layout_marginHorizontal="@dimen/medium_gap"
+        android:scaleType="centerInside"
+        android:src="@drawable/android_toy" />
 
     <TextView
+        android:id="@+id/android_text2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/medium_gap"
-        android:text="@string/complement_message_text"
         android:fontFamily="@string/font_style_text_serif_monospace"
-        android:textSize="@dimen/text_size_big_gap"
         android:gravity="center"
-        />
+        android:textAlignment="center"
+        android:text="@string/complement_message_text"
+        android:textSize="@dimen/text_size_big_gap" />
 </LinearLayout>

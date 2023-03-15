@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Laboratorie-01</string>
+    <string name="welcome_message_text">Welcome to</string>
+    <string name="complement_message_text">mobile device programming</string>
+    <string name="font_style_text_serif_monospace">serif-monospace</string>
+</resources>
