@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/purple_200"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -32,7 +33,7 @@
         android:layout_margin="@dimen/medium_gap"
         android:fontFamily="@string/font_style_text_serif_monospace"
         android:gravity="center"
-        android:textAlignment="center"
         android:text="@string/complement_message_text"
+        android:textAlignment="center"
         android:textSize="@dimen/text_size_big_gap" />
 </LinearLayout>
